@@ -6,18 +6,18 @@ import 'screens/home/view/home_screen.dart';
 import 'screens/home/view/second page.dart';
 
 void main() {
-  runApp(Sizer(
-    builder: (context, orientation, deviceType) {
-      return GetMaterialApp(
-        debugShowCheckedModeBanner: false,
-        // initialRoute: 'Home',
-        routes: {
-          '/': (context) => HomePage(),
-          'second' : (context) => Second(),
-        },
-      );
-    },
-  ));
+  runApp(
+    Sizer(
+      builder: (context, orientation, deviceType) {
+        return GetMaterialApp(
+          debugShowCheckedModeBanner: false,
+          // initialRoute: 'Home',
+          routes: {
+            '/': (context) => HomePage(),
+            'second': (context) => Second(),
+          },
+        );
+      },
+    ),
+  );
 }
-
-
