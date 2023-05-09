@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
           actions: [
             InkWell(
                 onTap: () {
-                  Get.toNamed('second');
+                  Get.toNamed('home');
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),

@@ -14,7 +14,7 @@ void main() {
           // initialRoute: 'Home',
           routes: {
             '/': (context) => HomePage(),
-            'second': (context) => Second(),
+            'home': (context) => Second(),
           },
         );
       },
